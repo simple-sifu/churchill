@@ -15,13 +15,23 @@
             text-align: left;
             font-size: 50px;
         }
+        select {
+            background-color: lightgray;
+            font-size: 50px;
+        }
     </style>
 </head>
 
 <body>
     <div>
-        We shall go on to the end, we shall fight in France, we shall fight on the seas and oceans, 
-        we shall fight with growing confidence and growing strength in the air, we shall defend our Island, 
+        We shall go on to the end, we shall fight in France, we shall 
+        <select id="pet-select">
+            <option value=""></option>
+            <option value="fight">fight</option>
+            <option value="work">work</option>
+            <option value="help">help</option>
+        </select> 
+        on the seas and oceans, we shall fight with growing confidence and growing strength in the air, we shall defend our Island, 
         whatever the cost may be, we shall fight on the beaches, we shall fight on the landing grounds, we 
         shall fight in the fields and ...
     </div>
